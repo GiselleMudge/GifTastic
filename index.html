@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastik!</title>
+
+       <!-- Setting Up my references to css, bootstrap, font, jquery-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body id="wholeThing">
+
+    <!-- Le Cheesy Header-->
+    <div class="jumbotron" id="header">
+        <h1>THE GAME RESERVE: Prey Database</h1>
+        <h5>Greetings fellow Yautja! I see you stumbled on yet another Predator-themed project. You are so lucky.<br>Today you are a Predator. OBJECTIVE: Prep for the hunt. </h5> <br> STEP 1: Click on the buttons provided to research your future trophies. <br> STEP 2: Click on the images generated to see them in motion. Click again to stop. Knowledge is power! <br>STEP 3: Search for a challenge if these are too easy in the form below. REPEAT.</h4> 
+      </div>
+      
+   <!-- Setting Up Search Form-->
+      <form class="form-inline" id="preySearch">
+        <div class="form-group">
+          <label for="preyInput">These are too easy. Find new prey. Enter a keyword and hit SEARCH! </label>
+          <input type="text" id="preyInput">
+        </div>
+        <!-- Prey is added via button -->
+        <input id="addPrey" type="submit" value="SEARCH">
+      </form>
+      
+           <!-- creating container for buttons that will be in rows  -->
+      <div class="row">
+        <div class="container">
+          <div class="btn-group inline">
+            <button class="btn btn-primary" id="prey" data-search="Lion">Lions</button>
+            <button class="btn btn-primary" id="prey" data-search="Tiger">Tigers</button>
+            <button class="btn btn-primary" id="prey" data-search="Bear">Bears</button>
+            <button class="btn btn-primary" id="prey" data-search="Predator Movie">Oh My!</button>
+      
+            <div id="gifBtns"></div>
+          </div> 
+        </div> >
+      </div> 
+      
+      
+      <div class="row">
+        <div class="container">
+            <span><div id="gifArea"></div></span>
+        </div>
+      </div> 
+      
+      
+      <script type="text/javascript" src="JS/GifTastik.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
+      
+    
+</body>
+</html>

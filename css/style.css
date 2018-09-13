@@ -1,0 +1,195 @@
+#header {
+	background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAyNy8yMTMvb3JpZ2luYWwvaW52aXNpYmlsaXR5LWNsb2FrLXByZWRhdG9yLmpwZw==);
+	color: yellow;
+    text-align: center;
+    padding-top: 5px;
+	padding-bottom: 10px;
+    font-family: 'Wallpoet', cursive;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#wholeThing {
+    background-color: black 
+}
+
+label {
+    font-size: 15px;
+    color: red;
+}
+
+#prey {
+	margin-right: 5px;
+    margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#preySearch {
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 100%;
+	text-align: center;
+	font-family: 'Wallpoet', cursive;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.preyGif {
+	padding: 2px;
+	width: 80%;
+}
+
+  /* Smallest Devices setting < 576px) */
+  @media (max-width: 575px) { 
+
+#header {
+    text-align: center;
+    padding-top: 5px;
+	padding-bottom: 10px;
+    font-family: 'Wallpoet', cursive;
+    font-size: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    font-size: 15px;
+    color: red;
+}
+
+#prey {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#preySearch {
+    display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Wallpoet', cursive;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.preyGif {
+	padding: 2px;
+	width: 80%;
+}
+  }
+
+  /* Setting for small devices >= 576px */
+  @media (min-width: 576px) and (max-width: 767px) {  
+
+    #header {
+        background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAyNy8yMTMvb3JpZ2luYWwvaW52aXNpYmlsaXR5LWNsb2FrLXByZWRhdG9yLmpwZw==);
+        color: yellow;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: 'Wallpoet', cursive;
+        font-size: 75%;
+        height: 75%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    label {
+        font-size: 15px;
+        color: red;
+    }
+    
+    #prey {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #preySearch {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Wallpoet', cursive;
+    }
+    
+    #gifArea {
+        clear: both;
+        display: inline;
+        flex-wrap: wrap;
+    }
+    
+    .preyGif {
+        padding: 2px;
+        width: 80%;
+    }
+      }
+      
+  
+  /*Medium devices setting >= 768px*/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    #header {
+        background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAyNy8yMTMvb3JpZ2luYWwvaW52aXNpYmlsaXR5LWNsb2FrLXByZWRhdG9yLmpwZw==);
+        color: yellow;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: 'Wallpoet', cursive;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    label {
+        font-size: 15px;
+        color: red;
+    }
+    
+    #prey {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #preySearch {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: 'Wallpoet', cursive;
+    }
+    
+    #gifArea {
+        clear: both;
+        display: inline;
+        flex-wrap: wrap;
+    }
+    
+    .preyGif {
+        padding: 2px;
+        width: 80%;
+    }
+      }
+
+
+      
